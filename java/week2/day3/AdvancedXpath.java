@@ -17,6 +17,8 @@ public class AdvancedXpath {
 		//AdvanceXpath
 		//parent to child
 		driver.findElement(By.xpath("//div[@id='username_container']/input")).sendKeys("dilip@testleaf.com");
+		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("testleaf@2024");
+		driver.findElement(By.xpath("//form[@name='login']/input[@id='Login']")).click();
 		
 	}
 
