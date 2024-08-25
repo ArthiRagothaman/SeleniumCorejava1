@@ -8,7 +8,9 @@ public class FindMissingElement {
 		// TODO Auto-generated method stub
 
 		int num[] = {1,4,3,2,8,6,7};
+		//Sort the given values using sort method
 		Arrays.sort(num);
+		//Getting the input values
 		for(int i=0;i<num.length-1;i++)
 		{
 			if(num[i]+1!=num[i+1]) {
